@@ -1,4 +1,4 @@
-const text = "ECE Student & Developer";
+const text = "Im a beginner passionate about programming, currently learning and working toward becoming a software developer...\nThanks for visiting...";
 
 let index = 0;
 
