@@ -390,3 +390,15 @@ section {
 
     cursor: pointer;
 }
+.profile {
+    text-align: center;
+    margin: 100px auto 50px;
+}
+
+.profile-image {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #333;
+}
