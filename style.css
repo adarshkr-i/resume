@@ -216,67 +216,71 @@ footer p {
 /* Mobile */
 
 /* 📱 Mobile Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 700px) {
 
-    body {
-        overflow-x: hidden;
-    }
-
-    /* Main headings */
-    h1 {
-        font-size: 2.2rem;
-    }
-
-    h2 {
-        font-size: 1.7rem;
-    }
-
-    p {
-        font-size: 1rem;
-    }
-
-    /* Navigation */
     nav {
-        padding: 15px;
+        padding: 20px;
+        position: sticky;
     }
 
-    nav a {
-        font-size: 14px;
-        margin: 0 6px;
+    .menu-button {
+        display: block;
     }
 
-    /* Main content */
-    .content {
-        width: 90%;
-        margin: auto;
-        text-align: center;
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
     }
 
-    /* Profile picture */
-    .profile-img {
-        width: 150px;
-        height: 150px;
+    .nav-links {
+        display: none;
+
+        position: absolute;
+        top: 70px;
+        left: 0;
+
+        width: 100%;
+
+        background: #0a0a0a;
+
+        flex-direction: column;
+        align-items: center;
+
+        padding: 25px;
+        gap: 25px;
+
+        border-bottom: 1px solid #222;
     }
 
-    /* Buttons */
-    button,
-    .btn {
-        width: 90%;
-        max-width: 300px;
-        margin: 8px auto;
+    .nav-links.active {
+        display: flex;
     }
 
-    /* Background video */
-    #background-video {
-        width: 100vw;
-        height: 100vh;
-        object-fit: cover;
+    .hero {
+        padding-top: 120px;
     }
 
-    /* Sections */
-    section {
-        padding: 60px 20px;
-    
+    .hero h1 {
+        font-size: 50px;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+    .about h2,
+    .projects h2 {
+        font-size: 32px;
+    }
+
+    .project-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact h2 {
+        font-size: 38px;
+    }
+}
 /* Animations */
 
 @keyframes fadeUp {
@@ -484,16 +488,4 @@ section {
     z-index: -1;
     pointer-events: none;
 }
-img {
-    max-width: 100%;
-    height: auto;
-}        
-@media (max-width: 600px) {
-    nav {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-    }
-}
-        
+
