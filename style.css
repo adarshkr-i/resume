@@ -498,11 +498,11 @@ section {
 
 .social-links a {
     color: #18d058;
-    font-size: 30px;;
     font-size: 30px;
     text-decoration: none;
     transition: 0.3s;
 }
+
 
 .social-links a:hover {
     transform: translateY(-5px);
