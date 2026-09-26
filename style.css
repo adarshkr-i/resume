@@ -497,7 +497,8 @@ section {
 }
 
 .social-links a {
-    color: white;
+    color: #18d058;
+    font-size: 30px;;
     font-size: 30px;
     text-decoration: none;
     transition: 0.3s;
