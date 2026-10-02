@@ -1,4 +1,4 @@
-const text = "Im a beginner passionate about programming, currently learning and working toward becoming something different.\nThanks for visiting...";
+const text = "Im a beginner programmer with a passion for code, currently learning and looking to make a meaningful impact...\nThanks for checking out my page.";
 
 let index = 0;
 
